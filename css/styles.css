@@ -1,0 +1,46 @@
+#header-nav {
+    background-color: pink;
+}
+
+.navbar {
+    padding: 0px;
+}
+
+.navbar .navbar-brand, .navbar button {
+    margin: 10px;
+}
+
+.navbar-toggler {
+    
+    border: 2px solid black;
+    border-radius: 4px;
+}
+
+.navbar-toggler-icon {
+    background-image: url('../icons/three-bars-16.svg');
+}
+
+.navbar-nav a:hover, .navbar-nav a {
+    text-decoration: none;
+    color: white;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    background-color: thistle;
+    opacity: 0.7;
+}
+
+.navbar-nav a:hover {
+    background-color: cornsilk;
+    color: thistle;
+}
+
+
+.container-fluid .row {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+.container-fluid .col-12 {
+    background-color: mistyrose;
+    overflow: hidden;
+    height:1000px;
+}
